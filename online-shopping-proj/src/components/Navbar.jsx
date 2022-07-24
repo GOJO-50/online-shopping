@@ -12,23 +12,25 @@ const Navbar = () => {
         <div className='navbar-container'>
             <div className='wrapper'>
                 <div className='left'>
-                    <span className='language'>
-                        EN
-                    </span>
                     <h1 className='logo'> AYE Ventures</h1>
                 </div>
                 <div className='center'>
                    <div className='search-container'>
-                    <input className='input-search' placeholder='search'></input>
-                   <SearchIcon style={{color:"gray", fontSize:16}}/>
+                    <input className='input-search' placeholder='search'>
+                        
+                    </input>
+                   <SearchIcon style={{color:"black", fontSize:16, marginLeft: "20px",}}/>
                     </div> 
                 </div>
                 <div className='right'>
+                <span className='language'>
+                        EN
+                    </span>
                     <div className='menu-item'> Register</div>
                     <div className='menu-item'> Sign-in</div>
                     <div className='menu-item'> 
                     <Badge badgeContent={3} color="primary">
-                          <MailIcon color="action" />
+                          <MailIcon color="black" />
                     </Badge>
                     </div>
                     
