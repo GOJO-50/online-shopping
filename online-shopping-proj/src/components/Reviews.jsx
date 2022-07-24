@@ -8,7 +8,7 @@ const Container = styled.div`
     justify-content: space-between;
     padding: 100px 0px;
     flex-wrap: wrap;
-    background-color: lightcyan;
+    background-color: lightblue;
 `
 
 
