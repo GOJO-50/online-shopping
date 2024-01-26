@@ -4,7 +4,6 @@ const Container = styled.div`
     width: 100vw;
     height: 100vh;
     background: linear-gradient(rgba(255,255,255), rgba(0,0,255,0.5));
-
     display: flex;
     align-items: center;
     justify-content: right;
